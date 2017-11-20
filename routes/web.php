@@ -11,9 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get("/", "PagesController@index");
+
+Route::get("/team-ao", "PagesController@teamAO");
+
+Route::get("/team-ib", "PagesController@teamIB");
 
 Auth::routes();
 
