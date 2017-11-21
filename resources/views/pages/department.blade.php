@@ -12,12 +12,11 @@
 		</div>
 		<div class="col-lg-9">
 			<div class="card mt-4">
-				<img class="card-img-top img-fluid" src={{asset( 'img/locatie.jpg') }} alt="coudn't find image!">
+				<img class="card-img-top img-fluid" src="{{ asset('storage/ao.jpg') }}" alt="coudn't find image!">
 				<div class="card-body">
-					<h3 class="card-title">Het team ICT beheer</h3>
+					<h3 class="card-title">{{ $department->name }}</h3>
 					<p class="card-text">
-						Wij zijn een school voor ICT bestaande uit twee afdelingen. De afdeling ICT beheer en de afdeling Applicatieontwikkeling.
-						Onze school heeft ongeveer 30 collega's verdeeld over beide afdelingen De school heeft als manager drs. de Kok
+						{{ $department->description }}
 					</p>
 				</div>
 			</div>

@@ -12,7 +12,7 @@
 		</div>
 		<div class="col-lg-9">
 			<div class="card mt-4">
-				<img class="card-img-top img-fluid" src={{asset( 'img/locatie.jpg') }} alt="coudn't find image!">
+				<img class="card-img-top img-fluid" src="{{ asset('storage/locatie.jpg') }}" alt="coudn't find image!">
 				<div class="card-body">
 					<h3 class="card-title">Welkom op het ROC mondriaan</h3>
 					<p class="card-text">
