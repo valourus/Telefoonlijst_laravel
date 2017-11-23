@@ -2,8 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Entities\Department;
-use App\Entities\User;
+use App\Models\Department;
 use Illuminate\Http\Request;
 
 class PagesController extends Controller {

@@ -17,7 +17,7 @@
 <body>
 	<div id="app">
 		@include("layouts.nav")
-		<div style="margin-bottom: 75px;"></div>
+		<div style="margin-bottom: 100px;"></div>
 		@yield('content')
 	</div>
 	<!-- Scripts -->

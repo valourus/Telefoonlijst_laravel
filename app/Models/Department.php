@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Entities;
+namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * App\Entities\Department
+ * App\Models\Department
  *
  * @mixin \Eloquent
  */

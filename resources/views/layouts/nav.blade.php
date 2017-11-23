@@ -21,11 +21,10 @@
 				</li>
 				@else
 				<li class="nav-item">
-					<a class="nav-link" href="#">Login</a>
+					<a class="nav-link" href="/login">Login</a>
 				</li>
 				@endif
 			</ul>
 		</div>
 	</div>
 </nav>
-<div style="margin-bottom: 50px;"></div>

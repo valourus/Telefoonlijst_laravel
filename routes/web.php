@@ -17,6 +17,12 @@ Route::get("/team-ao", "PagesController@teamAO");
 
 Route::get("/team-ib", "PagesController@teamIB");
 
+Route::get("/create-role", "RolesController@index");
+
+Route::post("/submitRole", "RolesController@createRole");
+
+Route::post("/submitPermission", "RolesController@createPermission");
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
